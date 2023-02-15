@@ -1,0 +1,14 @@
+D:\Projects\Practice dotnet projects\Employee_Management\Data\bin\Debug\net6.0\Data.deps.json
+D:\Projects\Practice dotnet projects\Employee_Management\Data\bin\Debug\net6.0\Data.runtimeconfig.json
+D:\Projects\Practice dotnet projects\Employee_Management\Data\bin\Debug\net6.0\Data.dll
+D:\Projects\Practice dotnet projects\Employee_Management\Data\bin\Debug\net6.0\ref\Data.dll
+D:\Projects\Practice dotnet projects\Employee_Management\Data\bin\Debug\net6.0\Data.pdb
+D:\Projects\Practice dotnet projects\Employee_Management\Data\obj\Debug\net6.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Practice dotnet projects\Employee_Management\Data\obj\Debug\net6.0\Data.AssemblyInfoInputs.cache
+D:\Projects\Practice dotnet projects\Employee_Management\Data\obj\Debug\net6.0\Data.AssemblyInfo.cs
+D:\Projects\Practice dotnet projects\Employee_Management\Data\obj\Debug\net6.0\Data.csproj.CoreCompileInputs.cache
+D:\Projects\Practice dotnet projects\Employee_Management\Data\obj\Debug\net6.0\Data.dll
+D:\Projects\Practice dotnet projects\Employee_Management\Data\obj\Debug\net6.0\ref\Data.dll
+D:\Projects\Practice dotnet projects\Employee_Management\Data\obj\Debug\net6.0\Data.pdb
+D:\Projects\Practice dotnet projects\Employee_Management\Data\obj\Debug\net6.0\Data.genruntimeconfig.cache
+D:\Projects\Practice dotnet projects\Employee_Management\Data\obj\Debug\net6.0\Data.csproj.AssemblyReference.cache

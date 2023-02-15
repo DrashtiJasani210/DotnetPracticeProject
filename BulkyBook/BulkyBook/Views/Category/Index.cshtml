@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Category>
+@{
+    ViewData["Title"] = "Hom";
+}
+
+<h1>Category</h1>
+@if(TempData["Success"]!=null)
+{
+   // <h2>@TempData["Success"]</h2>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+    <script type="text/javascript">
+        toastr.success('@TempData["Success"]');
+    </script>
+}
+
+<table class="table table-responsive table-striped table-bordered" style="width:100%">
+    <thead>
+        <th>Id</th>
+        <th>Category Name</th>
+        <th>Display Order</th>
+        <th>Date</th>
+    </thead>
+    <tbody>
+        @foreach (var cat_obj in Model)
+       {
+           <tr>
+               <td>@cat_obj.ID</td>
+               <td>@cat_obj.Name</td>
+               <td>@cat_obj.DisplayOrder</td>
+               <td>@cat_obj.OrderDate</td>
+               <td style="text-align:center">
+                   <div role="group">
+                   <a asp-controller="Category" asp-action="edit" asp-route-id="@cat_obj.ID"><i class="bi bi-pencil-square"></i>&nbsp;Edit</a>
+    
+                   </div>
+               </td>
+               <td style="text-align:center">
+                   <div role="group">
+                   <a asp-controller="Category" asp-action="delete" asp-route-id="@cat_obj.ID"><i class="bi bi-trash-fill"></i>&nbsp;Delete</a>
+    
+                   </div>
+               </td>
+           </tr>
+       }
+    </tbody>
+</table>
+
